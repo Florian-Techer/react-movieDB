@@ -25,7 +25,7 @@ const Form = ({ onSearchChange, searchResults, onAddMovieToStorage }) => {
               title={movie.title}
               average={movie.vote_average}
               release_date={movie.release_date}
-              overview={movie.release_date}
+              overview={movie.overview}
             >
               <CustomButton
                 content="Ajouter aux coup de coeur"

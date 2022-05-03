@@ -22,10 +22,17 @@ function Home() {
   };
 
   const handleAddStorage = (movie) => {
+    console.log(movie);
     let moviesCDCLocalStorage = [];
 
-    if (getLocalStorage("moviesCDC")) {
+    /* if (getLocalStorage("moviesCDC")) {
       moviesCDCLocalStorage = JSON.parse(getLocalStorage("moviesCDC"));
+    } */
+
+    if (window.localStorage.getItem("moviesCDC")) {
+      moviesCDCLocalStorage = JSON.parse(
+        window.localStorage.getItem("moviesCDC")
+      );
     }
 
     const isAllowToAdd = !moviesCDCLocalStorage.find(
@@ -36,6 +43,13 @@ function Home() {
       moviesCDCLocalStorage.push(movie);
       setLocalStorage("moviesCDC", JSON.stringify(moviesCDCLocalStorage));
     }
+    /* if (isAllowToAdd) {
+      moviesCDCLocalStorage.push(movie);
+      window.localStorage.setItem(
+        "moviesCDC",
+        JSON.stringify(moviesCDCLocalStorage)
+      );
+    } */
   };
 
   return (

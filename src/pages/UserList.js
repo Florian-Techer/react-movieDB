@@ -55,7 +55,7 @@ function UserList() {
               title={movie.title}
               average={movie.vote_average}
               release_date={movie.release_date}
-              overview={movie.release_date}
+              overview={movie.overview}
             >
               <CustomButton
                 content="Retirer des favoris"
