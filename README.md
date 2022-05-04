@@ -1,3 +1,7 @@
+# movieDB-react
+
+To run this application you need nodeJs you can download it here https://nodejs.org/en/ . If you have nodeJs we can start. Download the ZIP file of the project, unzip it and place it at the root of the project in your terminal. From there type the command $ npm install to install the dependencies then npm start to launch the project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,5 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# movieDB-react
-# movieDB-react
