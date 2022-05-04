@@ -1,6 +1,6 @@
 # movieDB-react
 
-To run this application you need nodeJs you can download it here https://nodejs.org/en/ . If you have nodeJs we can start. Download the ZIP file of the project, unzip it and place it at the root of the project in your terminal. From there type the command $ npm install to install the dependencies then npm start to launch the project.
+To run this application you need nodeJs you can download it here https://nodejs.org/en/ . If you have nodeJs we can start. Download the ZIP file of the project, unzip it and place it at the root of the project in your terminal. From there type the command $ npm install to install the dependencies then $ npm start to launch the project.
 
 # Getting Started with Create React App
 
