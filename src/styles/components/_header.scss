@@ -40,3 +40,23 @@
     }
   }
 }
+
+/* =========== MEDIA QUERY MEDIUM =========== */
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* =========== MEDIA QUERY SMALL =========== */
+@media screen and (max-width: 600px) {
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    nav{
+      position: inherit;
+    }
+  }
+}
