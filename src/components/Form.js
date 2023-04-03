@@ -12,7 +12,7 @@ const Form = ({ onSearchChange, searchResults, onAddMovieToStorage }) => {
             id="search-input"
             onChange={onSearchChange}
           />
-          <input type="submit" value="Rechercher" />
+          {/* <input type="submit" value="Rechercher" /> */}
         </form>
 
         <div className="result">
